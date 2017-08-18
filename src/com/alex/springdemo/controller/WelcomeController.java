@@ -28,7 +28,7 @@ public class WelcomeController {
 		model.addAttribute("myWelcomeMessage", welcomeMessage);
 		
 		// 3. Return logical view name 
-		return "welcomeNew"; 
+		return "welcomeNew"; // /WEB-INF/views/welcomeNew.jsp
 	}
 	
 }
